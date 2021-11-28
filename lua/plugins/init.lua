@@ -42,4 +42,6 @@ return require('packer').startup(function()
   -- tag = 'release' -- To use the latest release
 }
   use 'glepnir/dashboard-nvim'
+  use 'lukas-reineke/indent-blankline.nvim'
+  use 'terrortylor/nvim-comment'
 end)
